@@ -32,8 +32,9 @@ def sorted_matrix
   sorted_organic = ORGANIC_PRODUCE.sort
   sorted_conv = CONVENTIONAL_PRODUCE.sort
   sorted_array = [
-    sorted_organic,
-    sorted_conv
+    sorted_conv,
+    sorted_organic
+    
     ]
 sorted_array
 end
