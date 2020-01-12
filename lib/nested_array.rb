@@ -39,9 +39,8 @@ sorted_array
 end
 
 def matrix_lookup(matrix, row, column)
-   matrix[row][column] = new_value
-   matrix
-  
+  array = matrix[row][column]
+  array
 end
 
 def matrix_update(matrix, row, column, new_value)
@@ -50,5 +49,5 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   updated_array = matrix[row][column]
   updated_array = new_value
-  updated_array
+  
 end
