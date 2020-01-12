@@ -34,7 +34,6 @@ def sorted_matrix
   sorted_array = [
     sorted_conv,
     sorted_organic
-    
     ]
 sorted_array
 end
